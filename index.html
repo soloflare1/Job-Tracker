@@ -25,7 +25,55 @@
         }
     </style>
 </head>
-<body >
+<body class="bg-[#F8FAFC] min-h-screen">
+ 
+<section class="max-w-7xl mx-auto px-6 py-8 sm:px-10  sm:py-10">
+    <h1 class="text-[#031761] font-bold text-4xl mb-6">Job Application Tracker</h1>
+    
+    <!-- stats -->
+    <div class="stats grid grid-cols-3 mb-2 gap-4 ">
+        <div class="card-1 bg-[#FFFFFF] px-6 py-5 rounded-lg mb-8 shadow-md">
+            <p class="text-sm text-[#323B49] mb-1 font-semibold">Total</p>
+            <p id="total" class="text-[#002C5C] text-2xl font-bold">8</p>
+        </div>
+        <div class="card-2 bg-[#FFFFFF] px-6 py-5 rounded-lg mb-8 shadow-md">
+            <p class="text-sm text-[#323B49] mb-1 font-semibold">Interview</p>
+            <p id="interview" class="text-[#10B981] text-2xl font-bold">0</p>
+        </div>
+        <div class="card-3 bg-[#FFFFFF] px-6 py-5 rounded-lg mb-8 shadow-md">
+            <p class="text-sm text-[#323B49] mb-1 font-semibold">Rejected</p>
+            <p id="rejected" class="text-[#EF4444] text-2xl font-bold">0</p>
+        </div>
+        
+    </div>
+
+    <hr class="text-[#E6E7E9] pt-3 pb-3">
+    <!-- categories -->
+    <div class="category flex item-center justify-between">
+       <h4 class="text-[#031761] font-semibold text-xl mb-6">Available Jobs</h3>
+       <span id="job-count" class="text-gray-500 font-semibold ">8 jobs</span>
+    </div>
+
+    <!-- Tab - category buttons -->
+    <div class="cateButton flex items-center gap-2 mb-4">
+        <button  onclick="switchTab('all')"
+        id="tab-btn-all" class=" text-sm font-medium px-4 py-2 rounded bg-blue-600 text-white transition-all" >All</button>
+        <button  onclick="switchTab('interview')"
+        id="tab-btn-interview" class="  text-sm font-medium px-4 py-2 rounded text-gray-600 border border-gray-300 hover:bg-gray-200 transition-all" >Interview</button>
+        <button onclick="switchTab('rejected')"
+        id="tab-btn-rejected" class="  text-sm font-medium px-4 py-2 rounded text-gray-600  border border-gray-300 hover:bg-gray-200 transition-all" >Rejected</button>
+    </div>
+
+    <!-- job list -->
+    <div id="jobs" class="job flex flex-col gap-3">
+
+    </div>
+
+</section>
+    
+
+<script src="script/data.js"></script>
+<script src="script/script.js"></script>
 
 
 </body>
@@ -36,5 +84,4 @@
 
 
 
-
-
+  
