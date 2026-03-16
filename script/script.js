@@ -51,3 +51,10 @@ function setStatus(id, status){
     }
     render();
 }
+function jobDelete(id){
+    const  card = document.getElementById('card-' + id);
+    card.style.opacity = '0';
+
+    jobs = jobs.filter(j => j.id !== id);
+    render();
+}
