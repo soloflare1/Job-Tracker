@@ -1,10 +1,7 @@
 # Main Requirements
 
-## Design Part
-
 ## Dashboard
-- Website name and Create a dashboard like figma 
-- The section should be responsive for mobile devices. It is totally up to you. 
+- Website name and a dashboard 
 
 ## Available Jobs Section
 - A title on the left side, jobs count on the right side 
@@ -17,9 +14,9 @@
 	- salary
 	- description
 	- 2 buttons: Interview, Rejected
-- By default all the jobs data will show on All tab, and the Interview, Rejected tab will show “No jobs Available” message with a subtitle below and an icon/image on the above
+- By default all the jobs data will show on All tab, and the Interview, Rejected tab will show message with a subtitle below and an icon/image on the above
 
-- The section should be responsive for mobile devices. It is totally up to you.
+- The section is mobile devices responsive.
 
 --- 
 
@@ -40,11 +37,6 @@
 
 # Challenges Requirements
 - Clicking on the delete button will remove that card from the UI, and the count will be deducted from the dashboard card and the main section.
-- No lorem ipsum text on your website. At least 8 meaningful commits in your project.  
-
-- Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot. 
-
-
 
 
 **Technology Stack:**
@@ -54,5 +46,5 @@
 
 
 --- 
-1. GitHub Repository Link: 
-2. Live Site Link: 
+1. GitHub Repository Link: https://github.com/soloflare1/Job-Tracker
+2. Live Site Link: https://soloflare1.github.io/Job-Tracker/
